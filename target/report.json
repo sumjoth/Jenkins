@@ -1,0 +1,88 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "To add the cart in amazon",
+        "description": "",
+        "id": "title-of-your-feature;to-add-the-cart-in-amazon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8653951121,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i want to click the url",
+            "match": {
+              "location": "Product.i_want_to_click_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3701727584,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i want to search apple watches and click it",
+            "match": {
+              "location": "Product.i_want_to_search_apple_watches_and_click_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332389129,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i want search some watches",
+            "match": {
+              "location": "Product.i_want_search_some_watches()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5175688462,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "to add the cart",
+            "match": {
+              "location": "Product.to_add_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "E:/Selenium/Amazon/Features/Add.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
